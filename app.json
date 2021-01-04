@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "MyTSProject",
-    "slug": "MyTSProject",
+    "name": "LocationTracker",
+    "slug": "LocationTracker",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/map.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/map.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,13 +20,15 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.mzeeshansafdar.myLocationTracker",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/map.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/map.png"
     }
   }
 }
